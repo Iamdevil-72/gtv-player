@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GTVplayer</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="large_text">
+        "The User Interface is developed with the Android SDK.\n\n
+        1. User registration and login
+        2. Video recorder
+        3. Uploading videos to Firebase
+        4. Geotagged video player
+        \n\n1 User registration and login module
+        New users are prompted with sign-up activity. Existing users can log in with their credentials. The users can sign up with their google/Facebook account or by using an email ID and password. The authenticated users are forwarded to the HomeActivity. Firebase Authentication for android is used. Features like Google Sign-In, Facebook Login, user management, password reset, and email verification are achieved using the Firebase SDK.
+        \n\n2 Video recorder
+        The user can record video using the record activity. Inbuilt smartphone video recorder and  GPSLogger application will be launched simultaneously when the record activity is started. The recorded video and GPS files will be saved to the external storage location the user has specified. Later, the stored video and GPS files can be uploaded to the firebase for geotagging.
+        \n\n3 Uploading videos to Firebase
+        The user can upload the files to the Firebase system using the upload activity of the system. Users can navigate to this activity from HomeActivity. Default file manager intent is launched to pick the video file and its corresponding GPS data file. A name is given to the upload. When the upload is complete, the user will be notified about the upload completion and will be returned to the HomeActivity, where the user can see his/her latest uploaded video.
+        \n\n4 Geotagged video player
+        When the user clicks a video in the HomeActivity, the videoPlayer Activity will be launched where the selected video is played in the video player and the GPS data will be marked in the Google Map. The Google map SDK provides functionalities to create map overlays, markers, and polygons to make the map interactive for the user."
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="your_name">Your Name</string>
+</resources>
